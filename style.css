@@ -1,0 +1,81 @@
+body {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  color: black;
+  background-color: #e6f3f8;
+}
+
+header {
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-weight: 450;
+  font-size: 1.5rem;
+  line-height: .75;
+  color: #e6f3f8;
+}
+
+.wrapper {
+  margin: auto;
+  width: 500px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.img-profile {
+  max-width: 40rem;
+  max-height: 40rem;
+  border: 0.2rem solid black;
+  }
+
+.rounded-circle {
+  border-radius: 5% !important;
+}
+
+h1 {
+  color: #e6f3f8;
+}
+
+h2 {
+  color: black;
+  text-align: center; 
+}
+
+hr {
+  border-color: black;
+  border-width: .5px;
+}
+
+a {
+  color: #0047ab;
+}
+
+a:hover {
+  color: #5098ff;
+}
+
+footer {
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-weight: 450;
+  font-size: .9rem;
+  line-height: .75;
+  color: #e6f3f8
+}

@@ -1,6 +1,8 @@
 /* Layout for everything else */
+*{margin:0}
+
 body {
-  font-family: Comic Sans MS, "Lucida Console", Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
   color: black;
   background-color: #e6f3f8;
 }
@@ -8,31 +10,32 @@ body {
 /* Layout for header */
 header {
   padding-top: 1.5rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   text-align: center;
   background-color: black;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
-  font-family: Comic Sans MS, "Lucida Console", Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 450;
   font-size: 1.5rem;
   line-height: .75;
   color: #e6f3f8;
+  width: 100%;
 }
 
 /* Layout of footer */
 footer {
   padding-top: 1.5rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   text-align: center;
   background-color: black;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  font-family: Comic Sans MS, "Lucida Console", Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 450;
   font-size: .9rem;
   line-height: .75;
@@ -42,7 +45,7 @@ footer {
 /* Classes */
 .wrapper {
   margin: auto;
-  width: 500px;
+  width: 75%;
 }
 
 .center {
